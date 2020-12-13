@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#top{
+    background-color: cornflowerblue;
+
+}
+#mid{
+    background-color: cornflowerblue;
+    height:auto;
+    overflow: hidden;
+}
+#left{
+    line-height:30px;
+    background-color: bisque;
+    margin-left: 20px;
+    height:auto;
+    width:300px;
+    float:left;
+    padding:5px;
+}
+#right{
+    float:right;
+    height:auto;
+    width:900px;
+    background-color: bisque;
+    padding:5px;
+    margin-right: 20px;
+
+}
+#form{
+    text-align: center;
+    line-height:26px
+}
+#bottom{
+    background-color: cornflowerblue;
+}
+.Title{
+    text-align: center
+}

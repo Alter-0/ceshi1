@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <meta charset="UTF-8">
+  <title>手风琴</title>
+  <link rel="stylesheet" href="zuoye2.css">
+  <script src="../jquery-3.5.1.min.js"></script>
+  <script>
+      $(function () {
+          $(".Title").click(function () {
+            $(this).next().slideDown(300).parent().siblings().children("div").slideUp(100);
+          });
+      });
+  </script>
+</head>
+<body>
+<div>
+  <ul class="parent">
+    <li class="child">
+      <span class="Title">标题1</span>
+      <div>子1</div>
+    </li>
+    <li class="child">
+      <span class="Title">标题2</span>
+      <div>子1</div>
+    </li>
+    <li class="child">
+      <span class="Title">标题3</span>
+      <div>子1</div>
+    </li>
+    <li class="child">
+      <span class="Title">标题4</span>
+      <div>子1</div>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>

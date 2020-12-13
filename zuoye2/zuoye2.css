@@ -1,0 +1,26 @@
+* {padding: 0;margin: 0;}
+
+.parent {
+    width: 200px;
+    text-align: center;
+}
+
+.Title {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #d9e8ff;
+    cursor: pointer;
+}
+
+.child {
+    border: 1px solid #6cb5db;
+    background-color: #58a0c7;
+}
+
+.child > div {
+    height: 220px;
+    background-color: #d9e8ff;
+    display: none;
+}
